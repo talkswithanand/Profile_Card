@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <article>
+            <div class="profilepic"> </div>
+            <div class="info">
+                <h1>
+                    ANAND KUMAR
+                </h1>
+                <h2>
+                    Jr. Java Developer
+                </h2>
+                <h3>
+                    This profile card helps to connect with me. 
+                </h3>
+            </div>
+
+            <div class="btns">
+                <button>ADD FRIEND</button>
+                <button>MESSAGE</button>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-wordpress"></i>
+            </div>
+               
+        </article>
+    </section>
+</body>
+</html>
