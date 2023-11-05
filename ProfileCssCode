@@ -1,0 +1,113 @@
+*{
+    /* 3 CSS RULES */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    background: linear-gradient(black, white);
+    padding-top: 100px;
+}
+
+section>article{
+    height: 450px;
+    width: 300px;
+    /* background-color: rgb(0, 255, 76); */
+    background-color: rgb(132, 104, 197);
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-left: 450px;
+    box-shadow: 0px 0px 30px white;
+    padding-top: 30px;
+}
+
+/* section>article:hover{
+    transform: rotate3d(0,1,0, 360deg) scale(1.2);
+    transition: 3s;
+} */
+
+
+section>article>.profilepic{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 80px;
+    background-image: url(./IMG-20191101-WA0001.jpg);
+    background-position: center;
+    background-size: contain;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
+section>article>.info{
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 25px;
+}
+section>article>.info>h1{
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px beige;
+}
+
+section>article>.info>h2{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+section>article>.info>h3{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+section>article>.icons{
+    height: 50px;
+    width: 100%;
+    /* background-color: aqua; */
+    
+}
+
+section>article>.icons>i{
+    padding-left: 65px;
+    padding-top: 20px;
+    font-size: 45px;
+    /* word-spacing: 20px; */
+}
+
+section>article>.icons>.fa-linkedin{
+    color: rgb(10,102,194);
+}
+
+section>article>.icons>.fa-wordpress{
+    color: rgba(255, 255, 255, 0.603);
+}
+
+section>article>.btns{
+    height: 60px;
+    width:  100%;
+    text-align: center;
+}
+
+section>article>.btns>button{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    /* margin-top: 10px; */
+}
+
+section>article>.btns>button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
